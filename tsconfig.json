@@ -1,0 +1,36 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@common/*": ["src/common/*"],
+      "@components/*": ["src/common/components/*"],
+      "@constant/*": ["src/common/constant/*"],
+      "@context/*": ["src/common/context/*"],
+      "@hooks/*": ["src/common/hooks/*"],
+      "@lib/*": ["src/common/lib/*"],
+      "@stores/*": ["src/common/stores/*"],
+      "@styles/*": ["src/common/styles/*"],
+      "@types/*": ["src/common/types/*"],
+      "@utils/*": ["src/common/utils/*"],
+      "@modules/*": ["src/modules/*"],
+      "@dashboard/*": ["src/modules/dashboard/*"],
+      "@home/*": ["src/modules/home/*"],
+      "@services/*": ["src/services/*"],
+      "@pages/*": ["src/pages/*"],
+      "@routes/*": ["src/routes/router.tsx"],
+      "@public/*": ["public/*"],
+    },
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": false
+  }
+}
